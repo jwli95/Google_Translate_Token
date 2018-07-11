@@ -75,8 +75,7 @@ function updateTKK() {
     return new Promise(function (resolve, reject) {
         var now = Math.floor(Date.now() / 3600000);
 
-        //if (Number(window.TKK.split('.')[0]) === now) {
-        if (0) {
+        if (Number(window.TKK.split('.')[0]) === now) {
             resolve();
         } else {
             got('https://translate.google.cn').then(function (res) {
