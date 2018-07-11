@@ -1,6 +1,8 @@
 Google_Translate_Token
 ======================
 
+Open translate.google.cn in development mode. Using Network function to monitor the traffic. It is revealed that Google Translate uses "https://translate.google.com/translate_a/single?......." Set XHR breakpoint "https://translate.google.cn/translate_a".
+
 Ref:
 ----
 1. https://github.com/chenyuncai/google-translate-token
